@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.2'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -39,3 +40,6 @@ gem 'pg'
 gem 'rabl', '0.8.6'
 gem 'will_paginate', '3.0.7'
 gem 'api-pagination', '4.1.1'
+
+gem 'puma'
+gem 'rails_12factor', group: :production
