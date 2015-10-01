@@ -3,5 +3,6 @@ class ListingsController < ApplicationController
 
   def index
     @listings = ListingLoader.query(params)
+    paginate json: @listings, per_page: 10
   end
 end

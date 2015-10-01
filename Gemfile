@@ -39,3 +39,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem 'pg'
 gem 'rabl', '0.8.6'
+gem 'will_paginate', '3.0.7'
+gem 'api-pagination', '4.1.1'
